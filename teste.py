@@ -347,7 +347,7 @@ def criar_conta(numero_conta, clientes, contas):
 
 def listar_contas(contas):
     for conta in contas:
-        print("=" * 100)
+        print("=" * 200)
         print(textwrap.dedent(str(conta)))
 
 
